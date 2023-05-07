@@ -43,9 +43,9 @@ jobs:
     - name: Publish Tag
       run: |
         node --eval "console.log(JSON.parse(require('fs').readFileSync('package.json').toString()).version)" > tag.log
-        git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/voxelum/minecraft-launcher-core-node.git"
-        git config user.name ci010
-        git config user.email cijhn@hotmail.com
+        git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/isnano/minecraft-launcher-core-node.git"
+        git config user.name estluced
+        git config user.email estluced@gmail.com
         git tag -f $(cat tag.log)
         git push origin tag $(cat tag.log) -f
       env:
