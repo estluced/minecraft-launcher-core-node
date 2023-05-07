@@ -1,5 +1,5 @@
 {
-    "name": "@xmcl/eslint-config",
+    "name": "@mclc/eslint-config",
     "private": true,
     "version": "0.0.1",
     "description": "The xmcl commonly used eslint config for typescript",

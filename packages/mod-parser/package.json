@@ -1,5 +1,5 @@
 {
-  "name": "@xmcl/mod-parser",
+  "name": "@mclc/mod-parser",
   "version": "3.3.3",
   "main": "./index.ts",
   "description": "The utilities to parse Forge/Liteloader/Fabric/Quilt mod metadata.",

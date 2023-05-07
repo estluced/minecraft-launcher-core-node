@@ -1,5 +1,5 @@
 {
-  "name": "@xmcl/asm",
+  "name": "@mclc/asm",
   "version": "1.0.1",
   "main": "./index.ts",
   "description": "Java ASM module transferred into the typescript",

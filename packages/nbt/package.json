@@ -1,5 +1,5 @@
 {
-  "name": "@xmcl/nbt",
+  "name": "@mclc/nbt",
   "version": "3.0.1",
   "main": "./index.ts",
   "browser": "./dist/index.browser.mjs",

@@ -1,6 +1,6 @@
 {
   "version": "0.4.1",
-  "name": "@xmcl/nat-api",
+  "name": "@mclc/nat-api",
   "description": "Port mapping with UPnP and NAT-PMP",
   "main": "./index.ts",
   "publishConfig": {
