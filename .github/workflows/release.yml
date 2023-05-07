@@ -50,13 +50,3 @@ jobs:
         git push origin tag $(cat tag.log) -f
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - name: Build Docs
-      run: |
-        pnpm build:docs
-    - name: Deploy to Github Pages
-      uses: crazy-max/ghaction-github-pages@v1
-      with:
-        target_branch: gh-pages
-        build_dir: docs/
-      env:
-        GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
